@@ -9,10 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-<h3 align="center">
-<img src="image.png" alt="Screenshot of HexPatternView" />
-</h3>
-
 ## Requirements
 
 ## Installation
@@ -44,6 +40,10 @@ pod 'HexPatternView'
     patternView.cellWidthMax = 70
     
 ```
+
+<h3 align="center">
+<img src="image.png" alt="Screenshot of HexPatternView" />
+</h3>
 
 ## Author
 
