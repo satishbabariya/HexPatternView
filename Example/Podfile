@@ -1,0 +1,12 @@
+use_frameworks!
+target 'HexPatternView_Example' do
+  pod 'HexPatternView', :path => '../'
+
+  target 'HexPatternView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
+
+

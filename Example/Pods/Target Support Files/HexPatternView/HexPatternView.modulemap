@@ -1,0 +1,6 @@
+framework module HexPatternView {
+  umbrella header "HexPatternView-umbrella.h"
+
+  export *
+  module * { export * }
+}
