@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		68A749D7D8489C7EEE7017D9 /* Pods_HexPatternView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2DA19D0E11C39423B12AB3 /* Pods_HexPatternView_Tests.framework */; };
+		A9F331341FC83C100061B0FA /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F331331FC83C100061B0FA /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		89ECFC1749CF13E1E1FAC4A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8F7D2733D4858B49927C6712 /* Pods-HexPatternView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HexPatternView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HexPatternView_Example/Pods-HexPatternView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9A2DA19D0E11C39423B12AB3 /* Pods_HexPatternView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HexPatternView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F331331FC83C100061B0FA /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = ../image.png; sourceTree = "<group>"; };
 		C13C253A0C87ABC39D2649FE /* Pods_HexPatternView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HexPatternView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD0C6E9EC6DA5950A19E9B3 /* Pods-HexPatternView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HexPatternView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HexPatternView_Example/Pods-HexPatternView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F124EFEA44DA7C387103ACD1 /* Pods-HexPatternView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HexPatternView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HexPatternView_Tests/Pods-HexPatternView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				60A308A7D372CD1DD03325A0 /* HexPatternView.podspec */,
 				4CDEB23F629F08122CC9FD25 /* README.md */,
 				89ECFC1749CF13E1E1FAC4A1 /* LICENSE */,
+				A9F331331FC83C100061B0FA /* image.png */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				A9F331341FC83C100061B0FA /* image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

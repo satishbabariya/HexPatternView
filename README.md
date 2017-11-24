@@ -9,6 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+<h3 align="center">
+<img src="image.png" alt="Screenshot of HexPatternView" />
+</h3>
+
 ## Requirements
 
 ## Installation
@@ -18,6 +22,27 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'HexPatternView'
+```
+
+## Use
+
+```swift
+
+    let patternView = HexPatternView()
+    view.addSubview(patternView)
+    
+    patternView.translatesAutoresizingMaskIntoConstraints = false
+    patternView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
+    patternView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+    patternView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+    patternView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+    
+    view.backgroundColor = #colorLiteral(red: 0, green: 0.7022017837, blue: 0.9288000464, alpha: 1)
+    patternView.setRhombusPattern()
+    patternView.color = UIColor.white
+    patternView.alpha = 0.1
+    patternView.cellWidthMax = 70
+    
 ```
 
 ## Author

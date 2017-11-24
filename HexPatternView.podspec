@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HexPatternView'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of HexPatternView.'
+  s.summary          = 'Create Beautiful hex design View.'
 
   s.homepage         = 'https://github.com/satishbabariya/HexPatternView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
